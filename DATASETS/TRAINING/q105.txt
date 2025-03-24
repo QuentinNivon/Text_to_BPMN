@@ -1,0 +1,5 @@
+ i want A and B repeated
+
+ASSISTANT:
+
+- (A, B)*

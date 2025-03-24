@@ -1,0 +1,9 @@
+The process starts with a loop containing tasks T5, T6, T7, T0, T1, T4, T2, T3 and T8. Task T0 is executed before T1, which is executed before T4 and T2, itself occurring before T3. T0, T1, T2, T3 and T4 can not execute at the same time as T5, T6 and T7, which are themselves mutually exclusive. Finally, all these tasks must occur before T8. Once the loop has been executed, tasks T9, T10, and T11 can execute, sequentially.
+
+ASSISTANT:
+
+- (T5, T6, T7, T0, T1, T4, T2, T3, T8)*
+- T0 < T1 < (T4, (T2 < T3))
+- T5 | T6 | T7 | (T0, T1, T2, T3, T4)
+- (T0, T1, T2, T3, T4, T5, T6, T7) < T8
+- (T0, T1, T2, T3, T4, T5, T6, T7, T8) < (T9 < T10 < T11)

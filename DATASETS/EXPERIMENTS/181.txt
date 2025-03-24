@@ -1,0 +1,6 @@
+The user first InspectsMainStock.
+If the stock is sufficient, the user CloseApplication.
+Otherwise, he ListNeededStock and PrepareMoney.
+Then, he either MakeDirectPurchases or SendPurchaseOrderToSupplier.
+If the supplier accepts the order, he ReceivesStock and StoreMarchandise.
+Otherwise, he has to LookForAnotherSupplier and SendPurchaseOrderToSupplier again.

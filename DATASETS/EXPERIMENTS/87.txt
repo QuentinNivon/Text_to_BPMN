@@ -1,0 +1,4 @@
+The process starts periodically on the first of each month, when assembler ag PlaceOrder in order to RequestMoreProductParts.
+The assembler ag SendOrderToSupplier.
+The supplier ProcessOrder and SendInvoice to assembler ag.
+The assembler ag ReceiveInvoice.

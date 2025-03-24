@@ -1,0 +1,8 @@
+ A precedes B and C. C is before D and E. D and F are before G H I J. The whole process is a loop
+
+ASSISTANT:
+
+- A < (B, C)
+- C < (D, E)
+- (D, F) < (G, H, I, J)
+- (A, B, C, D, E, F, G, H, I, J)*

@@ -1,0 +1,6 @@
+CollectGoods is followed by PrepareParcel, itself followed by Payment. Then, either DeliveryByCar or DeliveryByDrone execute, but not both.
+
+ASSISTANT:
+
+- CollectGoods < PrepareParcel < Payment
+- (CollectGoods, PrepareParcel, Payment) < (DeliveryByCar | DeliveryByDrone)

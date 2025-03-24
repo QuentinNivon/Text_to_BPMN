@@ -1,0 +1,7 @@
+A executes before B which executes before C.
+Then, D and E are executed in parallel, before A and F.
+
+ASSISTANT:
+
+- A < B < C
+- (A, B, C) < (D & E) < (A, F)

@@ -1,0 +1,11 @@
+A choice with 4 paths is executed at the beginning.
+The first path contains T11 in parallel of T12 before T13.
+The second path contains T10.
+The third path contains T0 in parallel of T1 before T2, all before T3.
+The last path contains T8 in parallel of T9 in parallel of T4 before a parallel gateway composed of T5, T6 and T7.
+After the choice, T14 and T15 execute one after the other.
+
+ASSISTANT:
+
+- (T11 & (T12 < T13)) | (T10) | ((T0 & (T1 < T2)) < T3) | (T8 & T9 & (T4 < (T5 & T6 & T7)))
+- (T11, T12, T13, T10, T0, T1, T2, T3, T8, T9, T4, T5, T6, T7) < (T14 < T15)

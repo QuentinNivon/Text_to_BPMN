@@ -1,0 +1,6 @@
+The process of vacations request starts when any employee of the organization StartsVacationRequest.
+Once he has finished his request, he can SubmitsVacationRequest.
+Once the requirement is registered, the immediate supervisor of the employee requesting the vacation ReceiveRequest.
+The supervisor must ApproveRequest or RejectRequest.
+If the request is rejected, the system ReturnApplicationToApplicant who can ReviewRejectionReasons and SubmitsVacationRequest again.
+If the request is approved the system GenerateNotificationToHumanResources, whose representative must CompleteManagementProcedures.

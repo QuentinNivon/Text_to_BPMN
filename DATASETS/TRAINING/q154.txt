@@ -1,0 +1,7 @@
+The workflow starts with a sequence of tasks T0 T1 T2 T3 T4 T5 T6 T7.
+After that, T11, T12, T16 are in parallel of T18 preceding T9 which is before T10, and also of a choice executing either T15 or T13 before T14.
+
+ASSISTANT:
+
+- T0 < T1 < T2 < T3 < T4 < T5 < T6 < T7
+- (T0, T1, T2, T3, T4, T5, T6, T7) < ((T11, T12, T16) & (T18 < T9 < T10) & (T15 | (T13 < T14)))

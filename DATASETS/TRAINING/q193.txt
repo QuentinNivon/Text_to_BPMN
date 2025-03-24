@@ -1,0 +1,9 @@
+A is done before B which is done before C and D. F is executed before D, and C before E. G is performed before E and H. Either E or H is executed.
+
+ASSISTANT:
+
+- A < B < (C, D)
+- (F < D)
+- (C < E)
+- G < (E, H)
+- E | H

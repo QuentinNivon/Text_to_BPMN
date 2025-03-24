@@ -1,0 +1,8 @@
+ I want A before D, A before C, B before C and B before D.
+
+ASSISTANT:
+
+- A < D
+- A < C
+- B < C
+- B < D

@@ -1,0 +1,5 @@
+ a before d
+
+ASSISTANT:
+
+- a < d

@@ -1,0 +1,5 @@
+ I want B before C and D in a loop
+
+ASSISTANT:
+
+- (B < (C, D))*

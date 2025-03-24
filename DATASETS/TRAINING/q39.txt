@@ -1,0 +1,11 @@
+T1 has to be executed before T2, which has to be executed before T3, which has to be executed before T4, which has to be executed before T5, which has to be executed before T6. After that, tasks T7, T10, T11, T8 and T9 are executed in parallel of T12, T16, T17, T13, T14 and T15. Moreover, T12 precedes T16, T17 and T13. T14 has to execute after T13, but before T15. On the other hand, T7 is executed before T10, T11, T8, and T9. T10 comes before T11 and T8 before T9.
+
+ASSISTANT:
+
+- T1 < T2 < T3 < T4 < T5 < T6
+- (T1, T2, T3, T4, T5, T6) < ((T7, T10, T11, T8, T9) & (T12, T16, T17, T13, T14, T15))
+- T12 < (T16, T17, T13)
+- T13 < T14 < T15
+- T7 < (T10, T11, T8, T9)
+- (T10 < T11)
+- (T8 < T9)

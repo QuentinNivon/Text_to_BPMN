@@ -1,0 +1,7 @@
+First, the user EvaluateFirmnessColorAndDamages.
+Then, the machine ReadPalletLabels before ReadTemperatureAndHumidity.
+After that, the system RegisterPalletStorage and simultaneously AdjustRedfrigeratorTemperature before StorePalletInRefrigerator.
+These steps allow a worker to SelectSampleToAnalyse, which is followed by a technician that AnalyseSample.
+Finally, depending on the result of the analysis, two mutually exclusive paths can occur.
+In the first one, the system sequentially ActivateAlarm, RegisterPalletRejection and DiscardPallet.
+In the second one, the system ManageShipment before either MovePalletToNonPriorityArea, or ReducePrice, MovePalletToPriorityArea and RegisterPalletShipment one after the other.

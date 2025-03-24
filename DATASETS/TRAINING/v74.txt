@@ -1,0 +1,10 @@
+The process starts with C and ends with E. In the middle tasks B, D, F are in sequence and are repeatable. Moreover, B precedes Z and Y
+
+ASSISTANT:
+
+- C, E
+- (B < D < F)*
+- B < (Z, Y)
+- C < (B, D, F, Z, Y, E)
+- (B, D, F, Z, Y, C) < E
+

@@ -1,0 +1,7 @@
+ A is before C, B before C and B before E
+
+ASSISTANT:
+
+- A < C
+- B < C
+- B < E

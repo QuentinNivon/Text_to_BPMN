@@ -1,0 +1,9 @@
+First A precedes B.
+Then, C is in parallel of D.
+Finally, E and A execute.
+
+ASSISTANT:
+
+- A < B
+- (A, B) < (C & D)
+- (A, B, C, D) < (E, A)

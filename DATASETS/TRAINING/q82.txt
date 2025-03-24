@@ -1,0 +1,5 @@
+I want to execute A and then B or C.
+
+ASSISTANT:
+
+- A < (B | C)

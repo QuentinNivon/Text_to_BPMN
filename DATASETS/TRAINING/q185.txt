@@ -1,0 +1,10 @@
+ Task T1 followed by T2.  Task T1 followed by T3.  Task T1 followed by T4.  Task T3 followed by T5.  Task T4 followed by T5.  Task T5 followed by T6.
+
+ASSISTANT:
+
+- T1 < T2
+- T1 < T3
+- T1 < T4
+- T3 < T5
+- T4 < T5
+- T5 < T6

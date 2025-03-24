@@ -1,0 +1,13 @@
+ A then D. B then D.  C then D. D then E. D then F. D then G. G then DDDDD. F then DDDDD. E then DDDDD.
+
+ASSISTANT:
+
+- A < D
+- B < D
+- C < D
+- D < E
+- D < F
+- D < G
+- G < DDDDD
+- F < DDDDD
+- E < DDDDD

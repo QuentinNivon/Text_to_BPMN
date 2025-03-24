@@ -1,0 +1,6 @@
+T4 T0 and T3 can be executed at the same time, while T1 has to be between T0 and T2.
+
+ASSISTANT:
+
+- T4 & T0 & T3
+- T0 < T1 < T2

@@ -1,0 +1,5 @@
+ I want CréerCommande before ValiderCommande
+
+ASSISTANT:
+
+- CréerCommande < ValiderCommande

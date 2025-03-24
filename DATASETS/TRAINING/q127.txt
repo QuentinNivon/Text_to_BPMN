@@ -1,0 +1,7 @@
+I want A followed by B followed by either C or D.
+After C, the process should terminate.
+
+ASSISTANT:
+
+- A < B < (C | D)
+- C < #

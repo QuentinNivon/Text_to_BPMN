@@ -1,0 +1,5 @@
+ My process executes task A followed by task B followed by task C.
+
+ASSISTANT:
+
+- A < B < C

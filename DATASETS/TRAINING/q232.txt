@@ -1,0 +1,6 @@
+Task A then task B then, in parallel, C and D.  At the end of the process in sequence E and F.
+
+ASSISTANT:
+
+- A < B < (C & D)
+- (A, B, C, D) < (E < F)

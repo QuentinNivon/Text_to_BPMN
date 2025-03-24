@@ -1,0 +1,11 @@
+The first step is to DetermineContactDetails of potential customers.
+This can be achieved in several ways.
+Sometimes, we BuyDetailsForColdCalls, sometimes our marketing staff ParticipateInExhibitions, and sometimes you just CallSomebodyInterested.
+Then, the call center staff DetermineContractPerson and AllocateBudget.
+Of course they also AskCustomerForInterest.
+If the customer is not interested, they either LeaveCustomerAlone or TryToInterest customer.
+Otherwise, the head of development personally TryToAcquireCustomer.
+If the customer gets interested, he ReceiveDetailedOnlinePresentation?
+Afterwards, we WaitForCustomerInfo.
+If we are not contacted within two weeks, a sales representative CallCustomer.
+Finally, we CreateQuotation.

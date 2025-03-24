@@ -1,0 +1,23 @@
+T0 precedes T8, T9 and T1.
+T9 precedes T10.
+T1 precedes T2 and T3 that are mutually exclusive.
+T2 and T3 precede T4.
+T4 precedes T5.
+T5 is before T6.
+T7 succedes to T6.
+After T8, T10 and T7, T14 and T11 start.
+T12 comes after T11 and before T13.
+T14 and T13 trigger T15 that arrives before T16, itself before T17.
+
+ASSISTANT:
+
+- T0 < (T8, T9, T1)
+- T9 < T10
+- T1 < (T2 | T3)
+- (T2, T3) < T4
+- T4 < T5
+- T5 < T6
+- T6 < T7
+- (T8, T10, T7) < (T14, T11)
+- T11 < T12 < T13
+- (T14, T13) < T15 < T16 < T17

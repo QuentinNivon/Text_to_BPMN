@@ -1,0 +1,1 @@
+A parallel gateway executes A or B in parallel of U or Z in parallel of Alpha. This gateway precedes a loop where D follows C and E and F are mutually exclusive.

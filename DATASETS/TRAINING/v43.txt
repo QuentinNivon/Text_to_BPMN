@@ -1,0 +1,11 @@
+At the beginning, tasks ReadPalletLabels, RegisterPalletStorage, StorePallets, EvaluateProduct, ReadTemperature, AdjustFridgeTemperature, SelectSample, AnalyseSample execute, with the restriction that ReadTemperature performs before AdjustFridgeTemperature, SelectSample happens before AnalyseSample, and ReadPalletLabels precedes RegisterPalletStorage and StorePallets. After that, if the pallet is bad, tasks RegisterPalletRejection, DiscardPallet and ActivateAlarm are executed, and the process terminates. Otherwise, ManageShipment is executed. If the shipping is of high priority, ManageShipment is followed by ReducePrice and MoveToPriorityArea. Otherwise, it is followed by MoveToNonPriorityArea. In both cases, RegisterShipment is finally executed.
+
+ASSISTANT:
+
+- ReadPalletLabels, RegisterPalletStorage, StorePallets, EvaluateProduct, ReadTemperature, AdjustFridgeTemperature, SelectSample, AnalyseSample
+- ReadTemperature < AdjustFridgeTemperature
+- SelectSample < AnalyseSample
+- ReadPalletLabels < (RegisterPalletStorage, StorePallets)
+- (ReadPalletLabels, RegisterPalletStorage, StorePallets, EvaluateProduct, ReadTemperature, AdjustFridgeTemperature, SelectSample, AnalyseSample) < (((RegisterPalletRejection, DiscardPallet, Activate Alarm) < #) | ManageShipment)
+- ManageShipment < ((ReducePrice, MoveToPriorityArea) | MoveToNonPriorityArea)
+- (ReducePrice, MoveToPriorityArea, MoveToNonPriorityArea) < RegisterShipment

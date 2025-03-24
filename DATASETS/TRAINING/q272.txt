@@ -1,0 +1,5 @@
+I want A then B C and D in a choice and all inside a loop
+
+ASSISTANT:
+
+- (A < (B | C | D))*

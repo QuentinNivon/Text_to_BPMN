@@ -1,0 +1,8 @@
+ A is before C, D before C, C before E and H before E.
+
+ASSISTANT:
+
+- A < C
+- D < C
+- C < E
+- H < E

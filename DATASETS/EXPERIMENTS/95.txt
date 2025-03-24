@@ -1,0 +1,1 @@
+A then B then A. C after B. D after C. E after D.  D after E.

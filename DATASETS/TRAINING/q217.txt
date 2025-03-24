@@ -1,0 +1,7 @@
+ A1 followed by A2. A2 followed by A3  A1 followed by A4.
+
+ASSISTANT:
+
+- A1 < A2
+- A2 < A3
+- A1 < A4

@@ -1,0 +1,6 @@
+ A choice between tasks E1 and E2.  At the end task E3.
+
+ASSISTANT:
+
+- (E1 | E2)
+- (E1, E2) < E3

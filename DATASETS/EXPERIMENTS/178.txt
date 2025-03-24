@@ -1,0 +1,1 @@
+A and C are after R which is before B. After B, there can be C D or P.

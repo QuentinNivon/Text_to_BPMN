@@ -1,0 +1,6 @@
+tasks A and B and C and D.  All these tasks followed by tasks FF and GG.
+
+ASSISTANT:
+
+- A, B, C, D
+- (A, B, C, D) < (FF, GG)

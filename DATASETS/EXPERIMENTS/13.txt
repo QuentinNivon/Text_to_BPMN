@@ -1,0 +1,1 @@
+A C follow R which is before B. After B, there can be C D or P.

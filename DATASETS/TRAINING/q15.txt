@@ -1,0 +1,5 @@
+ A or B or C before D and E
+
+ASSISTANT:
+
+- (A | B | C) < (D, E)

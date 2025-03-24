@@ -1,0 +1,5 @@
+ A and b are in a loop
+
+ASSISTANT:
+
+- (A, b)*

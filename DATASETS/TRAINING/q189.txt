@@ -1,0 +1,8 @@
+T0 must occur before T1. T1 precedes T2 and T4. T2 precedes T3 which precedes T5. T4 precedes T5.
+
+ASSISTANT:
+
+- T0 < T1
+- T1 < (T2, T4)
+- T2 < T3 < T5
+- T4 < T5

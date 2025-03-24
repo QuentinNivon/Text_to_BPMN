@@ -1,0 +1,1 @@
+J is logically executed before K that starts before E and F. On the other side, M and P execute right after D than is before Y and U which can possibly execute several times.

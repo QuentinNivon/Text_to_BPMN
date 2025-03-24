@@ -1,0 +1,7 @@
+T0 precedes a choice between T4, T3, T6, T5, and T1 and T2 in parallel.
+Then, T7 precedes T13 in parallel of T8 before T9 before T10 before T11 before T12 and T10.
+
+ASSISTANT:
+
+- T0 < (T4 | T3 | T6 | T5 | (T1 & T2))
+- (T0, T4, T3, T6, T5, T1, T2) < (T7 < (T13 & (T8 < T9 < T10 < T11 < (T12, T10))))

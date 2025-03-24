@@ -1,0 +1,6 @@
+The party SendWarrantPossessionRequest asking a warrant to be released.
+The client service back office, as part of the small claims registry operations, ReceiveRequest and RetrieveSCTFile.
+Then, the system ForwardSCTWarrantPossession to Queensland police.
+When the report is received, RetrieveRespectiveSCTFile is executed.
+Then, the back office AttachNewSCTDocuments and StoreExpandedSCTPhysicalFile.
+After that, some other MC internal staff ReceivePhysicalSCTFile (out of scope).

@@ -1,0 +1,8 @@
+ T0 executes before T1 which executes before a parallel gateway containing two branches. First branch contains T14 before T15.
+Second branch executes T2 T3 T4 T5 T6 in sequence before a choice between T10 before T11 and T7 before T8 before T9. The choice
+precedes T12 and T13 executed on after the other in a loop.
+
+ASSISTANT:
+
+- T0 < T1 < ((T14 < T15) & ((T2 < T3 < T4 < T5 < T6) < ((T10 < T11) | (T7 < T8 < T9))))
+- (T10, T11, T7, T8, T9) < (T12 < T13)*

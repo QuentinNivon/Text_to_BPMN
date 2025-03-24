@@ -1,0 +1,15 @@
+The secretariat first ReceiveInvoices.
+Then, it ForwardToAccountingEmployee after a short visual inspection.
+The accounting employee then IdentifyChargingSuppliers and CreateNewInstance.
+She then CheckInvoiceItems and NoteCorrespondingAndRelatedCostCenter for each position on a separate form (docket).
+Next, she SendToFirstCostCenterManager the docket and the copy of the invoice.
+The first cost center manager eventually ReviewContentForAccuracy after receiving the copy of the invoice.
+If the content is accurate, he NoteCodeOne and ReturnInvoiceCopy.
+After that, the system either SendToNextCostCenterManager, or if all items are marked correct, SendBackToAccounting.
+If the cost manager detects inconsistencies, e.g. because the ordered product is not of the expected quantity or quality, he can RejectAP and ForwardToAccountingEmployee.
+Once all the products are marked as correct, the accounting employee ClarifyWithVendor, and, if necessary, ConsultCostCenterManager by telephone or e-mail again.
+She then ForwardInvoiceCopyToCommercialManager.
+After receiving the invoice copy, the commercial manager makes CommercialAudit and IssuePaymentApproval.
+If the bill amount exceeds EUR 20,000, the board wants to CheckPaymentAgain (4-eyes-principle).
+If there is a complaint during CommercialAudit, the accounting employee will ResolveComplaint.
+After CommercialAudit, the accounting employee GivePaymentInstruction and CloseInstance.

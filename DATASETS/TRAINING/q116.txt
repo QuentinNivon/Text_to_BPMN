@@ -1,0 +1,10 @@
+The process begins with a big parallel part containing T0, T1 followed by T2 followed by T3, and a choice.
+In this choice, either T4, T9, T10, T7 followed by T8, or T5 followed by T6 execute.
+Then, T11, T12, T13, T14, and T15 execute one after each other.
+After T15, T16 and T17 execute.
+
+ASSISTANT:
+
+- T0 & (T1 < T2 < T3) & (T4 | T9 | T10 | (T7 < T8) | (T5 < T6))
+- (T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10) < (T11 < T12 < T13 < T14 < T15)
+- T15 < (T16, T17)

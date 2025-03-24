@@ -1,0 +1,7 @@
+The MedicalCheckUp can be done in parallel of FillForms, and also in parallel of either VisaFinding and VisaApplication. Then, either task Validate is proceeded or tasks ValidatePartially and AskAdditionalDocuments, or task Reject terminating the process. Once they have been executed, PrepareWelcomeKit executes in parallel of AnticipateWages, UpdatePersonnelDatabase, and ArchiveDocuments.
+
+ASSISTANT:
+
+- MedicalCheckUp & FillForms & (VisaFinding | VisaApplication)
+- (MedicalCheckUp, FillForms, VisaFinding, VisaApplication) < (Validate | (ValidatePartially & AskAdditionalDocuments) | (Reject < #))
+- (Validate, ValidatePartially, AskAdditionalDocuments, Reject) < (PrepareWelcomeKit & (AnticipateWages, UpdatePersonnelDatabase, ArchiveDocuments))

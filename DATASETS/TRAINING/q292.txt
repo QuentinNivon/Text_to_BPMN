@@ -1,0 +1,5 @@
+ A should be before D
+
+ASSISTANT:
+
+- A < D

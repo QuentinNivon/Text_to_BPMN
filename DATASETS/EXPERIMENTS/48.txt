@@ -1,0 +1,7 @@
+First, the publisher CollectInfo which is used to PrepareForPublishing.
+Then, the system StoreContent after which it either StoreMultimedia or HandleContentError if any.
+If a content error was handled, StoreContent must be executed again.
+After storing the multimedia information, the publisher either PublishToInternet or HandleMultimediaError.
+If a multimedia error occurred, StoreMultimedia starts again.
+After the publication, the publisher PostOnTwitter, PostOnFacebook and PostOnWebsite.
+Once the post has been uploaded on the website, the system may ReceiveSubscriberNotification and ReceiveSyndicatedFeedPublishing.

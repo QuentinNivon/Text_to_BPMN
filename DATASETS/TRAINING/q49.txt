@@ -1,0 +1,5 @@
+You can do A then B then either C and the process stops or A.
+
+ASSISTANT:
+
+- A < B < ((C < #) | A)

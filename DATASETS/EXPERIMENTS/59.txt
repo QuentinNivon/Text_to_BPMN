@@ -1,0 +1,4 @@
+In the context of a claim handling process, it is sometimes necessary to SendQuestionnaireToClaimant to gather additional information.
+The claimant is expected to ReturnQuestionnaire within five days.
+If no response is received after five days, the claimant ReceiveReminder.
+If after another five days there is still no response, the claiment ReceiveReminder again, and so on until the system ReceiveCompletedQuestionnaire.

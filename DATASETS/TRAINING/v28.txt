@@ -1,0 +1,8 @@
+First, ProcessApplication executes. Then, either task CreateProfile executes, or tasks RetrieveCustomerProfile and AnalyseCustomerProfile sequentially. After that, both IdentifyAccountType and PrepareAccountOpening can be done. Once they have been performed, tasks ReceiveSupportDocuments, UpdateInfoRecords, BackgroundVerification and ReviewApplication execute, followed by a choice between tasks NotifyRejection leading to the termination of the process and GenerateAccountNumber, SendStarterKit and ActivateAccount.
+
+ASSISTANT:
+
+- ProcessApplication
+- ProcessApplication < (CreateProfile | (RetrieveCustomerProfile < AnalyseCustomerProfile))
+- (ProcessApplication, CreateProfile, RetrieveCustomerProfile, AnalyseCustomerProfile) < (IdentifyAccountType, PrepareAccountOpening)
+- (IdentifyAccountType, PrepareAccountOpening) < (ReceiveSupportDocuments, UpdateInfoRecords, BackgroundVerification, ReviewApplication) < ((NotifyRejection < #) | (GenerateAccountNumber, SendStarterKit, ActivateAccount))

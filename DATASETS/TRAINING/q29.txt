@@ -1,0 +1,5 @@
+Task A. Task B. Task C. Task D. Task E.
+
+ASSISTANT:
+
+- A, B, C, D, E

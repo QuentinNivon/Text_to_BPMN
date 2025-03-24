@@ -1,0 +1,5 @@
+ A and B are in a loop, before C D and E
+
+ASSISTANT:
+
+- (A, B)* < (C, D, E)

@@ -1,0 +1,12 @@
+First a parallel gateway executes.
+The first branch contains T4 before T5 before T6.
+The second branch contains T0 T1 T2 and T3 in sequence.
+The last branch executes T7 before T10 in parallel of T8 before T9, all before a choice between T13 and T11 before T12.
+After the gateway, T15 suceedes to T14 but precedes T16.
+T16 is before T18 and T17 which precede T19 in sequence of T20 and T21.
+
+ASSISTANT:
+
+- (T4 < T5 < T6) & (T0 < T1 < T2 < T3) & (T7 < (T10 & (T8 < T9)) < (T13 | (T11 < T12)))
+- (T4, T5, T6, T0, T1, T2, T3, T7, T10, T8, T9, T13, T11, T12) < (T14 < T15 < T16)
+- T16 < ((T18, T17) < ((T19 < T16), T20))

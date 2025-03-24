@@ -1,0 +1,3 @@
+At the beginning, the secretary EvaluatePatientRequest.
+Then, the doctor either ExamineAndInterviewPatient, MakeDiagnosis and ConductDiagnosticWorkup one after the other, or EvaluateHospitalisation in order to chose between TreatExacerbations or PrescribeTherapy.
+Finally, he PlanExamination.

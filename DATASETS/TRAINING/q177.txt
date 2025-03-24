@@ -1,0 +1,6 @@
+ A precedes B and D in parallel, all before C or E. The whole process is a loop.
+
+ASSISTANT:
+
+- A < (B & D) < (C | E)
+- (A, B, D, C, E)*

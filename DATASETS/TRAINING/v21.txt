@@ -1,0 +1,7 @@
+At the beginning, T0 and T1 execute in sequence. Then, T2, T6 and T7 execute at the same time. After T2, either T3 executes or T4 and T5 in sequence.
+
+ASSISTANT:
+
+- T0 < T1
+- (T0, T1) < (T2 & T6 & T7)
+- T2 < (T3 | (T4 < T5))

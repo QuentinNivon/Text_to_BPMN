@@ -1,0 +1,6 @@
+ Tasks A, B and C in sequence. B and C can be repeated.
+
+ASSISTANT:
+
+- A < B < C
+- (B, C)*

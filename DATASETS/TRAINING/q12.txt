@@ -1,0 +1,7 @@
+ Task A is followed by B C D. Task C is followed by E G. Task E is preceded by U and W which are in a loop
+
+ASSISTANT:
+
+- A < (B, C, D)
+- C < (E, G)
+- (U, W)* < E

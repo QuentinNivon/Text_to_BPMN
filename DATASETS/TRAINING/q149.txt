@@ -1,0 +1,6 @@
+T0 is before T1, which is before T2, T3 and T5. T3 is before T4.
+
+ASSISTANT:
+
+- T0 < T1 < (T2, T3, T5)
+- T3 < T4

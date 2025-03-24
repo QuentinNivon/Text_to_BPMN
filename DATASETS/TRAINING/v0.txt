@@ -1,0 +1,8 @@
+ Choice between tasks A, B and tasks C D E. A is before B. D is before E. D and E are in the same loop.
+
+ASSISTANT:
+
+- (A, B) | (C, D, E)
+- A < B
+- D < E
+- (D, E)*

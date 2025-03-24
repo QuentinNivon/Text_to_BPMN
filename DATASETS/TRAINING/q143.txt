@@ -1,0 +1,5 @@
+ B and A or C and D
+
+ASSISTANT:
+
+- (B, A) | (C, D)

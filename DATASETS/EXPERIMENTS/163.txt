@@ -1,0 +1,5 @@
+When I DetectANumberOfPersonnelRequirements, I ReportVacancyToPersonnelDepartment.
+Then, I WaitForJobDescription before AdvertizingJob.
+Depending of the circumstances, I either AskForCorrections or I ApproveJobDescription.
+Sometimes, it also happens that the colleague from the human resources still AskQuestionsAboutTasksAndRequirements before DescribeJob.
+Then, I am available for ClarifyDescription, of course.

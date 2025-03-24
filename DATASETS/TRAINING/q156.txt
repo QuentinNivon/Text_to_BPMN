@@ -1,0 +1,12 @@
+The workflow begins with either T7 or T0 followed by T1 before T2 followed by T3 before T6 in parallel of T4 before T5.
+Then, T16 is in parallel of T8, which precedes a parallel gateway with three branches.
+The first branch executes T10, the second T9, and the last T11 in parallel of T12 in parallel of T13 before T14 before T13 or T27.
+After that gateway, T15 executes.
+The process ends with T17.
+
+ASSISTANT:
+
+- (T7 | (T0 < T1 < T2 < T3 < (T6 & (T4 < T5))))
+- (T7, T0, T1, T2, T3, T6, T4, T5) < (T16 & (T8 < ((T10) & (T9) & (T11 & T12 & (T13 < T14 < (T13 | T27))))))
+- (T10, T9, T11, T12, T13, T14) < T15
+- (T7, T0, T1, T2, T3, T6, T4, T5, T16, T8, T10, T9, T11, T12, T13, T14, T15) < T17

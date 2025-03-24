@@ -1,0 +1,5 @@
+ task A1 followed by task B1, in parallel with task B2 followed by task A2
+
+ASSISTANT:
+
+- (A1 < B1) & (B2 < A2)

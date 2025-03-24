@@ -1,0 +1,5 @@
+ I want A followed by B followed by C and A.
+
+ASSISTANT:
+
+- A < B < (C, A)

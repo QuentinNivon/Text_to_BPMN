@@ -1,0 +1,9 @@
+First, the support AcceptTicket.
+Then, the support performs Level1Support.
+If the problem is solved, the editor PublishSolution.
+Otherwise, the support performs Level2Support.
+Similarly, if the problem is solved, the editor PublishSolution.
+Otherwise, the support performs Level3Support.
+If the level 3 did not solve the problem, it CreateBug.
+Otherwise, the editor PublishSolution.
+In both cases, the support eventually CloseTicket.

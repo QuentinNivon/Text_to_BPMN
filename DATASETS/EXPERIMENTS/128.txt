@@ -1,0 +1,11 @@
+First, the user SearchItems.
+If he finds what he wants, he can either SignIn or SignUp while ChoosingItems.
+Otherwise, he LeaveWebsite.
+If he found items, he then has to Pay.
+He can choose to PayByCard, PayByGiftVoucher, or PayOnDelivery.
+In case of card or gift voucher, the system must CheckTransaction.
+After the payment, the system ValidatePayment and CheckInventory.
+After verifying the stock, the system either IdentifyWarehouse, ProcureItems before UpdateInventory, or MarkItemAsUnavailable and NotifyUser.
+If the item was available, the factory ShipItems and then DeliverItems.
+If the user is not home for delivery, the factory NotifyUser before DeliverItems again.
+Otherwise, the user ReceiveItems.

@@ -1,0 +1,6 @@
+ My process executes a task A followed by a parallel execution of task B and task C, and then followed by task D. My whole process can execute several times.
+
+ASSISTANT:
+
+- A < (B & C) < D
+- (A, B, C, D)*

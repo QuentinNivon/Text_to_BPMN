@@ -1,0 +1,6 @@
+ A is before B and C. D is done at the end.
+
+ASSISTANT:
+
+- A < (B, C)
+- (A, B, C) < D

@@ -1,0 +1,1 @@
+A before B. C after B.  F and G after C.  F and G in sequence.   DDD before A.  GDG before A.

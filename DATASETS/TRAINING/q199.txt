@@ -1,0 +1,6 @@
+tasks A and B and C and D in sequence.  All these tasks followed by tasks FF and GG in parallel.
+
+ASSISTANT:
+
+- A < B < C < D
+- (A, B, C, D) < (FF & GG)

@@ -1,0 +1,6 @@
+First, the person ChooseItems.
+Then, she has to either PayByMealCard, PayByCash, or PayByCreditCard.
+If she pays by meal card but has no money left, she has to RechargeCard before PayByMealCard again.
+If she pays by cash, the cashier must ReturnChange if any.
+Finally, if she pays by credit card, the system VerifiesPayment and if the payment failed she has to PayByCreditCard again.
+

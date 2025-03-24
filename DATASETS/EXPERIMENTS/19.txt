@@ -1,0 +1,1 @@
+A then B then C followed by a parallel gateway with FF and GG.  Repetition of the whole process

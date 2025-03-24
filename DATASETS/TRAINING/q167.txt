@@ -1,0 +1,5 @@
+ I want a choice composed of A B C D which is inside a loop
+
+ASSISTANT:
+
+- (A | B | C | D)*

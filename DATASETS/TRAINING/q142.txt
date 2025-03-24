@@ -1,0 +1,5 @@
+I want A B C D in sequence, and then E after what the process finishes.
+
+ASSISTANT:
+
+- (A < B < C < D) < E < #

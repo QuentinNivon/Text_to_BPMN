@@ -1,0 +1,7 @@
+The recruiter start by OpenPosition.
+Then, he Publish the offer, DistributeOnJobBoards, and AdvertiseOnSocialMedia.
+After that, he eventually RetrieveApplications, which leads to PreSelectCandidates.
+Next, he InterviewPreSelectedCandidates.
+If a candidate was selected after the interview process, he SelectCandidateForOffer, PrepareOffer, SendOfferToCandidate and GetCandidateReply one after the other.
+Otherwise, he RetrieveApplications again.
+Once he got the candidate reply, he either CongratulateCandidate and InformOtherCandidates if the answer is positive, or SelectCandidateForOffer again if the answer is negative.

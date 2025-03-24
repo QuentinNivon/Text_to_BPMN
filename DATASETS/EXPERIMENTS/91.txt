@@ -1,0 +1,1 @@
+A choice contains either A before D and C, or E after Z, or W before U before Y and U.

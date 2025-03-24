@@ -1,0 +1,5 @@
+ Selection_of_an_offer is before SOP subprocess and EAE subprocess.
+
+ASSISTANT:
+
+- Selection_of_an_offer < (SOP, EAE)

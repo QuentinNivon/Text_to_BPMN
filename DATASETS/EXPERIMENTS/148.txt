@@ -1,0 +1,4 @@
+Each morning, the system CheckFiles which have yet to be processed, to make sure they are in order for the court hearing that day.
+If some files are missing, the system InitiateSearch, otherwise it TrackFilesPhysicallyToIntendedLocation.
+Once all the files are ready, the system HandFilesToAssociate and meantime DistributeJudgesLawlist to relevant people.
+Afterwards, it ConductDirectionsHearing.

@@ -1,0 +1,7 @@
+In a mutually exclusive fashion, T1, T2 and T3 execute. In parallel of them appears T0. After that, T4 is executed, preceding T5, itself preceding T6.
+
+ASSISTANT:
+
+- T1 | T2 | T3
+- (T1, T2, T3) & T0
+- (T1, T2, T3, T0) < T4 < T5 < T6

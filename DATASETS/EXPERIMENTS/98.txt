@@ -1,0 +1,12 @@
+Whenever the sales department ReceiveOrder, the system SendOrderToSaleDepartment.
+A member of the sales department can then RejectOrder or AcceptOrder.
+In the former case, the process stops.
+In the latter case, the system InformStorehouseAndEngineeringDepartment.
+The storehouse then immediately ProcessOrderPartList and CheckRequiredQuantities.
+If the part is available in-house, ReservePart executes.
+If it is not available, BackOrder executes
+This procedure is repeated for each item on the part list.
+In parallel of this, the engineering department PrepareComponentsForAssembling.
+If the storehouse has successfully reserved or back-ordered every item of the part list and the preparation activity has finished, the engineering department AssemblesBicycle.
+Afterwards, the sales department ShipBicycleToCustomer.
+

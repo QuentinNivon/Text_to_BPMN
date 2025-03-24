@@ -1,0 +1,5 @@
+ A choice between A or B followed by C or D followed by E or F or G.
+
+ASSISTANT:
+
+- (A | B) < (C | D) < (E | F | G)

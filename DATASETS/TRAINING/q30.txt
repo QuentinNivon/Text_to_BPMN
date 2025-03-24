@@ -1,0 +1,6 @@
+ task A before tasks C and D, and task B before D
+
+ASSISTANT:
+
+- A < (C, D)
+- B < D

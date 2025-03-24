@@ -1,0 +1,5 @@
+ choice between A and B before choice between C and D
+
+ASSISTANT:
+
+- (A, B) < (C, D)

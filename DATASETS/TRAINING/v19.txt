@@ -1,0 +1,5 @@
+I can execute T1 followed by T3 in a loop
+
+ASSISTANT:
+
+- (T1 < T3)*

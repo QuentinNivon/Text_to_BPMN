@@ -1,0 +1,1 @@
+A is before B C D H which are in a loop. C and D are in sequence and D precedes C.

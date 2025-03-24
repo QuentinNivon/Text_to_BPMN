@@ -1,0 +1,7 @@
+First, T0, T1 and T2 execute. After they finished, either T3 or T4 execute. Finally, T5 starts.
+
+ASSISTANT:
+
+- T0, T1, T2 
+- (T0, T1, T2) < (T3 | T4)
+- (T0, T1, T2, T3, T4) < T5

@@ -1,0 +1,11 @@
+The process starts with T0, preceding T1, T2, T3, and T4 in parallel.
+Then, T5 is in parallel of T6 preceding T7.
+After them, T11, T10, and T8 before T9 execute at the same time.
+Finally, T12 precedes T13 which precedes T14 which is before a choice composed of T16 and T15.
+
+ASSISTANT:
+
+- T0 < (T1 & T2 & T3 & T4)
+- (T0, T1, T2, T3, T4) < (T5 & (T6 < T7))
+- (T0, T1, T2, T3, T4, T5, T6, T7) < (T11 & T10 & (T8 < T9))
+- (T0, T1, T2, T3, T4, T5, T6, T7, T11, T10, T8, T9) < (T12 < T13 < T14 < (T15 | T16))

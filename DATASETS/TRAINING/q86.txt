@@ -1,0 +1,5 @@
+ Task T1 followed by task T2 followed by a split parallel gateway followed by two tasks TTT and FFF followed by a join parallel gateway followed by task THEEND.
+
+ASSISTANT:
+
+- T1 < T2 < (TTT & FFF) < THEEND

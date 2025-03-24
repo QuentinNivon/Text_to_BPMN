@@ -1,0 +1,1 @@
+T0 precedes T1 and T2 before T3 before T4. After that, either T8 followed by T9 execute or T6 T7 T5.

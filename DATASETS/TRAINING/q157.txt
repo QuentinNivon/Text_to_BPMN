@@ -1,0 +1,5 @@
+ Tasks A B in sequence and in a loop followed by tasks C and D in parallel and in a loop.
+
+ASSISTANT:
+
+- (A < B)* < (C & D)*

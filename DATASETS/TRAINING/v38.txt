@@ -1,0 +1,5 @@
+ Tasks A B C FFF GGG ERERER in a loop.
+
+ASSISTANT:
+
+- (A, B, C, FFF, GGG, ERERER)*

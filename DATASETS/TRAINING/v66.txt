@@ -1,0 +1,7 @@
+FillForm, VisaApplication and MedicalVisit must be executed before SubmitDocuments, which has to be executed before either DocumentsRejected which terminates the process or DocumentsAccepted. DocumentsAccepted must be executed before ArchiveDocuments and UpdatePersonnelDatabase. UpdatePersonnelDatabase has to be executed before AnticipateWages and PrepareWelcomeKit.
+
+ASSISTANT:
+
+- (FillForm, VisaApplication, MedicalVisit) < SubmitDocuments < ((DocumentsRejected < #) | DocumentsAccepted)
+- DocumentsAccepted < (ArchiveDocuments, UpdatePersonnelDatabase)
+- UpdatePersonnelDatabase < (AnticipateWages, PrepareWelcomeKit)

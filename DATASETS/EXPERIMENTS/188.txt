@@ -1,0 +1,1 @@
+A then B or C then D then E or F and G before A.

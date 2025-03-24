@@ -1,0 +1,7 @@
+ A is before B and C. B and C are in parallel. D is done at the end.
+
+ASSISTANT:
+
+- A < (B, C)
+- B & C
+- (A, B, C) < D

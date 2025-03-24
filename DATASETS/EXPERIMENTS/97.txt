@@ -1,0 +1,7 @@
+When a claim is received, the system first CheckWhetherClaimantIsInsuredByOrganization.
+Then, the system either InformClaimantOfRejection or EvaluateClaimSeverity.
+Based on the outcome (simple or complex claims), it SendRelevantFormsToClaimant.
+Once the forms are returned, it CheckFormsForCompleteness.
+If the forms provide all relevant details, it RegisterClaim in the claims management system, which ends the claims notification process.
+Otherwise, it InformClaimToUpdateForms.
+Once it receives the updated forms, it CheckFormsForCompleteness again.

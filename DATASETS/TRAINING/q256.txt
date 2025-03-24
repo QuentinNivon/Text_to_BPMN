@@ -1,0 +1,5 @@
+ i want A or B in a loop
+
+ASSISTANT:
+
+- (A | B)*

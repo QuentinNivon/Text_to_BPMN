@@ -1,0 +1,6 @@
+I want either A B C or D. After D, the process ends.
+
+ASSISTANT:
+
+- A | B | C | D
+- D < #

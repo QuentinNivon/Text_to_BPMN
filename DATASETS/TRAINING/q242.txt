@@ -1,0 +1,5 @@
+ Tasks A B C D E F G H in sequence and in a loop.
+
+ASSISTANT:
+
+- (A < B < C < D < E < F < G < H)*

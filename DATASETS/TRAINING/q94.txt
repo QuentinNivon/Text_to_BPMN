@@ -1,0 +1,5 @@
+ I want A or B followed by C before D inside a loop
+
+ASSISTANT:
+
+- ((A | B) < (C < D))*

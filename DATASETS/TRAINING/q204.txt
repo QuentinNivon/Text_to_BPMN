@@ -1,0 +1,5 @@
+ I want either A C or D before H
+
+ASSISTANT:
+
+- A | C | (D < H)

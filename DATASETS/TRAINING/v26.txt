@@ -1,0 +1,8 @@
+A should be executed before B, and C before D. A and C must be executed separately. The entire process is a loop.
+
+ASSISTANT:
+
+- (A < B)
+- (C < D)
+- A | C
+- (A, B, C, D)*

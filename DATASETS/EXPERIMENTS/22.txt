@@ -1,0 +1,4 @@
+First, the client SelectsPizza.
+Then, he OrdersPizza, which trigger the restaurant to BakePizza.
+Finally, if the client PayPizza, the restaurant DeliverPizza and the client ends up EatingPizza.
+Otherwise, the restaurant KeepPizza.

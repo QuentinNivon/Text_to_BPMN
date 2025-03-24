@@ -1,0 +1,5 @@
+ A comes before B preceding C and D that can be repeated
+
+ASSISTANT:
+
+- A < B < (C, D)*

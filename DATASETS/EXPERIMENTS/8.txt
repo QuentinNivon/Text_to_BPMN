@@ -1,0 +1,5 @@
+First, the policeman SearchRelatedPoliceReport and PutInFileAndClaimDocumentation.
+This file serves as input to a claims handler who CalculateInitialClaimEstimate.
+Then, the claims handler CreateActionPlan based on an action plan checklist available in the document management system.
+Based on the action plan, a claims manager TryToNegotiateSettlement on the claim estimate.
+The system then InformClaimantOfOutcome, which ends the process.

@@ -1,0 +1,18 @@
+The process is initiated by InitiateSwitchOverRequest.
+Then, the customer TransmitCustomerData to the customer service department of the company.
+The customer service ReceiveCustomerData and EnterCustomerDataIntoCRM.
+After customer data has been entered, it CompareCustomerData and CheckForCompletenessAndPlausibility.
+If there are errors, the customer must CorrectErrors.
+If the customer does not exist in the customer database, the system will CreateNewCustomerObject.
+The customer object is then used to GenerateContractDocuments for the power supplier switch.
+In the following, the system performs AutomatedCheckOfContractDocuments within the CIS to confirm their successful generation.
+If there is a negative response, the system AnalyzeAndResolveIssues and GenerateContractDocuments again.
+If there is a positive response, the system SendConfirmationToCustomer stating that the switch-over to the new supplier can be executed.
+The cis then SendRequestToGridOperator to check if the customer may be supplied by the selected supplier in the future. The grid operator then CheckSwitchOverRequest for supplier concurrence, and TransmitResponseComment.
+If there is supplier concurrence, the grid operator InformSuppliers, DemandeConflictResolution and TerminateOldSalesAgreement between the customer and the old supplier.
+If there are no objections by the grid operator, the customer service CreateCISContract.
+After that, the customer can CheckContractDetails and may decide to either WithdrawFromSwitchContract or ConfirmSwitchContract.
+Finally, the grid operator TransmitPowerMeterData to the customer service and the old supplier via messages containing a services consumption report.
+At the same time, the grid operator ComputeFinalBilling based on the meter data and SendFinalBillingToCustomer.
+
+

@@ -1,0 +1,8 @@
+Task A followed by task B. Then tasks C D and E in parallel. Then a choice between task R1 followed by R2 and TTTT. Finally task FINISH.
+
+ASSISTANT:
+
+- A < B
+- (A, B) < (C & D & E)
+- (A, B, C, D, E) < ((R1 < R2) | TTTT)
+- (A, B, C, D, E, R1, R2, TTTT) < FINISH

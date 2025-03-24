@@ -1,0 +1,7 @@
+First, the manager CheckOpenLeads.
+Afterwards, he SelectTopFiveOnes.
+Then, he tells his sales assistants to CallLeadsContactPerson.
+The sales assistant CallCustomer.
+If someone is interested, he SendsNoteToManager.
+The manager then ProcessLead.
+Otherwise, he CallCustomer again.

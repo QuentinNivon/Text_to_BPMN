@@ -1,0 +1,1 @@
+There process starts by either E or P. After P there can be Crocodile and after E Dolphin. After the animals, M precedes D which is after W or Z.

@@ -1,0 +1,1 @@
+A B C D occurs in a loop before ZZZ which is before another loop containing U I O in sequence. The process finishes with D before C before D.

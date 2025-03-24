@@ -1,0 +1,8 @@
+ A before D E and F, B before D E and F, C before D E and F, G or H
+
+ASSISTANT:
+
+- A < (D, E, F)
+- B < (D, E, F)
+- C < (D, E, F)
+- G | H

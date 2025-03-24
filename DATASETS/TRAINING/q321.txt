@@ -1,0 +1,6 @@
+B and D appear before A C E which are executed before B D and F.
+
+
+ASSISTANT:
+
+- (B, D) < (A, C, E) < (B, D, F)

@@ -1,0 +1,5 @@
+T0 precedes a choice between T1 and T2 followed by T3.
+
+ASSISTANT:
+
+- T0 < (T1 | (T2 < T3))

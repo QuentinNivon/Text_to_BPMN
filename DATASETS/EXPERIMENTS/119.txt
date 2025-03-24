@@ -1,0 +1,9 @@
+The mail processing unit CollectPartyMails.
+Then, the mail clerk SortUnopenedMail into the various business areas.
+He then DistributeMail.
+When the mail is received by the registry, the registry OpenMail and SortMailIntoGroups for distribution, and then RegisterEmailInManualIncomingFolder.
+Afterwards, the assistant registry manager PerformQualityCheck.
+If the mail is not compliant, the registry CompileRequisitionList and SendBackMail.
+Otherwise, the registry CaptureMatterDetails and ProvideMatterDetailsToCashier, who TakeApplicableFees.
+At this point, the assistant registry manager PutReceiptAndCopiedDocuments into an envelope and PostEnvelopeToParty.
+Meantime, the cashier CapturePartyDetals and PrintPhysicalCourtFile.

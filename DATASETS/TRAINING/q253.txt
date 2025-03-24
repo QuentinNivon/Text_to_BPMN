@@ -1,0 +1,5 @@
+I want to execute A B C D in a loop.
+
+ASSISTANT:
+
+- (A, B, C, D)*

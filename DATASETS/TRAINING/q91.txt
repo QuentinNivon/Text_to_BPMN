@@ -1,0 +1,7 @@
+ Task A followed by B. After task B I can either execute task C or task D.  B can be executed several times.
+
+ASSISTANT:
+
+- A < B
+- B < (C | D)
+- (B)*

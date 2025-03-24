@@ -1,0 +1,1 @@
+I want A, B, C in sequence. D may occur before B.

@@ -1,0 +1,1 @@
+T1 then T2. T2 then T3. T1 then T4.  T5 then T6.  T5 followed by T7. T3 is in a loop.

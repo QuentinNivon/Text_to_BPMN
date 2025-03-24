@@ -1,0 +1,5 @@
+ Tasks A B C and D in sequence
+
+ASSISTANT:
+
+- A < B < C < D

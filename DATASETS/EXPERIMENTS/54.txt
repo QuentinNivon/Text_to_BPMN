@@ -1,0 +1,1 @@
+the process begins doing a T4, and then enters in a loop that after doing a T5 can decide to end or do a T6 and then a T7 before going back

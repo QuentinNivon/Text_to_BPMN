@@ -1,0 +1,7 @@
+First, the user AppliesOnline.
+Then, the user has to UploadPassport so that the system can CheckValidity.
+If the passport is invalid, the user must UploadPassport again.
+Otherwise, the company can EvaluateApplication.
+The evaluation leads either to RejectApplication or AcceptApplication.
+If the company accepts the application, its administrative staff must PayForFees and PreparePassport.
+Once the passport is ready, the company DeliverPassport.

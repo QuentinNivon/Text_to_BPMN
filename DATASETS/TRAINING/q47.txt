@@ -1,0 +1,6 @@
+ Tasks A and B in a choice followed by tasks AA and BB in parallel. The entire process can be repeated.
+
+ASSISTANT:
+
+- (A | B) < (AA & BB)
+- (A, B, AA, BB)*

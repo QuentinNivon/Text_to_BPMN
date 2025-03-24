@@ -1,0 +1,9 @@
+T0 and T1 in sequence are the first part of the workflow.
+After them, either T3 and T2 execute, or T5 followed by a choice between T9 and T8 in parallel of T6 preceding T7.
+After T3 and T2, T4 starts.
+
+ASSISTANT:
+
+- T0 < T1
+- (T0, T1) < ((T3, T2) | (T5 < (T9 | (T8 & (T6 < T7)))))
+- (T3, T2) < T4

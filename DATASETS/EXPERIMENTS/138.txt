@@ -1,0 +1,1 @@
+T0 precedes T1 which precedes T3 and T2. T3 is before T4. T5 is before T6. T0 T1 T3 T4 and T2 are mutually exclusive with T5 T6 and T7. After them, T8 precedes T9 preceding a choice between T13 and T10 T11 and T12. T8 T9 are also in parallel of T14.

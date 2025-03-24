@@ -1,0 +1,7 @@
+ I want a loop necessarily executing A before B and optionally D or C
+
+I want A before B before D or C before E or A
+
+ASSISTANT:
+
+- A < B < (D | C) < (E | A)

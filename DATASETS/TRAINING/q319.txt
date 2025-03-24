@@ -1,0 +1,6 @@
+Task A must be executed before B. Then, C or D can be executed, but not both.
+
+ASSISTANT:
+
+- A < B
+- (A, B) < (C | D)

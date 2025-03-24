@@ -1,0 +1,5 @@
+ i want D and C in a loop
+
+ASSISTANT:
+
+- (D, C)*

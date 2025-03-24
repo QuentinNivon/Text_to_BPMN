@@ -1,0 +1,7 @@
+First, the user LogsInPlatform.
+Then, the system LogsInMetamask to provide AccesToSubmissionPortal to the user.
+After that, the user UploadsFile.
+Next, the system VerifiesFiles which leads either to SendBackToSubmissionPortal followed by AccessToSubmissionPortal, or to SubmitsForAttestation.
+In case of submission for attestation, the system has to RecordAttestation.
+If the recording works, the system SendsAttestedBlueprint to the user who can finally ReceiveTheBlueprint.
+Otheriwse, the system SendsErrorMessage and restarts RecordAttestation.

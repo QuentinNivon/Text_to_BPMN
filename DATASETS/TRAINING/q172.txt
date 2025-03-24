@@ -1,0 +1,5 @@
+ c before d
+
+ASSISTANT:
+
+- c < d

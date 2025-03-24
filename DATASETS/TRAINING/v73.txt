@@ -1,0 +1,9 @@
+ My tasks are A B C D E F.  Task A is followed by task B.  Task E is followed by task F.  The process starts by executing task C and ends by executing task D.
+
+ASSISTANT:
+
+- A, B, C, D, E, F
+- A < B
+- E < F
+- C < (A, B, D, E, F)
+- (A, B, C, E, F) < D

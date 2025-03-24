@@ -1,0 +1,5 @@
+ Task A followed by tasks B and C in parallel with tasks E followed by tasks FFF and GGG.
+
+ASSISTANT:
+
+- A < ((B, C) & (E < (FFF, GGG)))

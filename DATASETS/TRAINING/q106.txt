@@ -1,0 +1,9 @@
+The process starts with T0 and T1 in sequence and finishes with T14, T15, T16, T17, T18, T19, T20 in sequence.
+In the middle, T11 is in parallel of T12 before T13, and in parallel of T2 before T3 before T9 in parallel of T4 preceding T5 preceding a loop.
+The loop executes T6 and T7 in sequence and then T8.
+
+ASSISTANT:
+
+- (T0 < T1)
+- (T14 < T15 < T16 < T17 < T18 < T19 < T20)
+- (T0, T1) < (T11 & (T12 < T13) & (T2 < T3 < (T9 & (T4 < T5 < ((T6 < T7) < T8)*)))) < (T14, T15, T16, T17, T18, T19, T20)

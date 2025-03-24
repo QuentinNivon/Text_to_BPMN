@@ -1,0 +1,5 @@
+ I want first A, B, C and D. Then, F executes.
+
+ASSISTANT:
+
+- (A, B, C, D) < F

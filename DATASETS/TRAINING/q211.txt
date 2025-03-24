@@ -1,0 +1,5 @@
+ Tasks E1 E2 E3 in sequence.
+
+ASSISTANT:
+
+- E1 < E2 < E3

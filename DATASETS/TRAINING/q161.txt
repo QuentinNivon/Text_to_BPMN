@@ -1,0 +1,6 @@
+Tasks A B C and D in sequence, followed by tasks E F in sequence.  Then comes T1 T2 T3 in parallel.  Followed by FF G H J K L N DDDD DDD DD.
+
+ASSISTANT:
+
+- (A < B < C < D) < (E < F)
+- (A, B, C, D, E, F) < (T1 & T2 & T3) < (FF, G, H, J, K, L, N, DDDD, DDD, DD)

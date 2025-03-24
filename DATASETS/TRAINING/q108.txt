@@ -1,0 +1,8 @@
+ Tasks A and B are mutually exclusive of tasks C D and E. A is before B. D is before E. D and E are in the same loop.
+
+ASSISTANT:
+
+- (A, B) | (C, D, E)
+- A < B
+- D < E
+- (D, E)*

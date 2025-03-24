@@ -1,0 +1,12 @@
+First T0 executes.
+Then, two branches execute in parallel.
+The first branch contains T12, while the second one contains T7 in parallel of T6 in parallel of T1 preceding a choice between T4, T5 and T2 before T3.
+The second branch ends with, in parallel, T10, T11, and T8 before T9.
+Next, T13 and T14 execute in sequence, before T15, T16, T17, T18, T19, T20, T21 in parallel.
+
+ASSISTANT:
+
+- T0
+- T0 < ((T12) & (T7 & T6 & (T1 < (T4 | T5 | T2 | T3))))
+- (T12, T7, T6, T1, T4, T5, T2, T3) < (T10 & T11 & (T8 < T9))
+- (T0, T12, T7, T6, T1, T4, T5, T2, T3, T10, T11, T8, T9) < (T13 < T14 < (T15 & T16 & T17 & T18 & T19 & T20 & T21))

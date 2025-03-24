@@ -1,0 +1,9 @@
+ A is before C, D before C, C before E and H before E. Everything is in a loop.
+
+ASSISTANT:
+
+- A < C
+- D < C
+- C < E
+- H < E
+- (A, C, D, E, H)*

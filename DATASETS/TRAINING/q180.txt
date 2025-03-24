@@ -1,0 +1,5 @@
+ A B C D are in a choice, in parallel of E
+
+ASSISTANT:
+
+- (A | B | C | D) & E

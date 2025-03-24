@@ -1,0 +1,5 @@
+ Task AA followed by tasks BB or CC. Followed by Task AAA followed by tasks BBB or CCC.
+
+ASSISTANT:
+
+- AA < (BB | CC) < AAA < (BBB | CCC)

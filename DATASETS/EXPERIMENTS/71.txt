@@ -1,0 +1,10 @@
+In November each year, the coordination unit at the town planning authority DraftNextCalendarYearMeetingsSchedule and AddDraftDatesToCalendars.
+The support officer then CheckDates and SuggestModifications.
+The coordination unit then RecheckDates and LookForPotentialConflicts.
+Then, SendFinalScheduleToIndependentCommitteeMembers execute.
+The committee members finally CheckDiary and AdviseCoordinationUnitOfConflicts.
+Once the dates are finalized (by the coordination unit), the support officer UpdateGroupCalendars, CreateMeetingFolders for each meeting and EnsureDocumentsAreUploaded.
+Committee members are advised a week before each meeting to ReadAllRelatedDocuments.
+The committee members HoldMeeting and the support office then ProduceDocuments including any action points for each committee member.
+Within 5 working days, the coordination unit must ConductDocumentsCheck, which are then sent to all committee members.
+The support officer then UpdateDepartmentalRecords.

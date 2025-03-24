@@ -1,0 +1,5 @@
+ B and C cannot execute simultaneously
+
+ASSISTANT:
+
+- B | C

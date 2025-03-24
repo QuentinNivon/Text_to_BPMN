@@ -1,0 +1,3 @@
+First of all, an employee CollectGoods.
+Then, the client PayForDelivery while the employee PrepareParcel.
+Finally, the company can either DeliverByCar or DeliverByDrone (depending on the distance for example).

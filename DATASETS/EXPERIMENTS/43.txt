@@ -1,0 +1,3 @@
+The process starts with DemandToFillPost.
+Then, AdvertisePost executes, followed by ApplicantApplication and then CheckApplications and FillPost.
+The process finishes with ConcludeEmploymentContract.

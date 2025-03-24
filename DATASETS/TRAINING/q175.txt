@@ -1,0 +1,8 @@
+First, T0 executes, before T1, T2 and T3, in a repeating fashion. T1 is also executed before T3. After the loop, T6 executes before T7, and both are in parallel of T4, T5, T8. In parallel of all of this executes T9.
+
+ASSISTANT:
+
+- (T0 < (T1, T2, T3))*
+- T1 < T3
+- (T0, T1, T2, T3) < ((T6 < T7) & (T4, T5, T8))
+- T9 & (T0, T1, T2, T3, T4, T5, T6, T7, T8)

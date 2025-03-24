@@ -1,0 +1,5 @@
+ a should be before b and c
+
+ASSISTANT:
+
+- a < (b, c)

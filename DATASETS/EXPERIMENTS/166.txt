@@ -1,0 +1,4 @@
+DecideNormalPostOrSpecialCarrier executes before a choice between either RequestQuotes preceding AssignCarrier, or CheckExtraInsurance before either TakeOutExtraInsurance or FillInPostLabel.
+In parallel of this, PackageGoods is executed.
+Finally, MovePackageToPickArea starts.
+

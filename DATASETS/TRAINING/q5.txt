@@ -1,0 +1,10 @@
+ A then D. B then D.  C then D. D then E. D then F. D then G.
+
+ASSISTANT:
+
+- A < D
+- B < D
+- C < D
+- D < E
+- D < F
+- D < G

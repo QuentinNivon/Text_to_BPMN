@@ -1,0 +1,5 @@
+First, the administration has to give the MissionAuthorization.
+Then, while the user BookFlight, the administrative staff can do the MissionPaperwork.
+After booking his flight, the user is allowed to BookHotel, TakeInsurance, CheckLocalTransportation, and DoVaccination.
+Once he has booked the hotel and is done with his mission paperwork, he can start the VisaProcess.
+In the end, the administration ArchiveMission.

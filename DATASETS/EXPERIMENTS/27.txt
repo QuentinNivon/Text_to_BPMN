@@ -1,0 +1,1 @@
+While A execute, B and C too. When B finishes, D can start repeatedly with E and F.

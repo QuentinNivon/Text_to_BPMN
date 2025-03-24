@@ -1,0 +1,1 @@
+A and P are in a loop. Between both, there are C D E F in parallel and G H in sequence.

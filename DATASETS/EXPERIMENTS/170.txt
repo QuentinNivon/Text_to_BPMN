@@ -1,0 +1,12 @@
+An employee PurchaseProductOrService.
+The employee SubmitExpenseReport with a list of items, along with the receipts for each item.
+A supervisor ReviewExpenseReport and ApproveReport or RejectReport.
+If the supervisor reject the report, the employee can EditReport.
+He then SubmitExpenseReport again.
+If the supervisor ApproveReport, it goes to the treasurer.
+The treasurer CheckReceiptsSubmission and MatchItemsOnList.
+If all is in order, the treasurer AcceptExpensesForProcessing.
+If receipts are missing or do not match the report, he SendBackReport.
+If a report returns to an employee for corrections, the employee must SubmitExpenseReport again, even if the supervisor previously approved it.
+If the treasurer accept the expenses for processing, the system LinkReportToPaymentSystem.
+The process then WaitForPaymentConfirmation and ends once confirmed.

@@ -1,0 +1,10 @@
+The workflow begins with T0 and T1 in sequence, preceding a paralle gateway containig 4 paths.
+The first path contains T17.
+The second one contains T2 T3 and T4 in sequence, before T7, T8, T9, T10, T11 and T5 before T6 in parallel.
+The third one contains T18 before T19, and the last one contains T12 before T13 before T14 before T15 before T16 before T17 and T15
+After the parallel gateway, T20 ends the process.
+
+ASSISTANT:
+
+- T0 < T1 < ((T17) & ((T2 < T3 < T4) < (T7 & T8 & T9 & T10 & T11 & (T5 < T6))) & (T18 < T19) & (T12 < T13 < T14 < T15 < T16 < (T17, T15)))
+- (T17, T2, T3, T4, T7, T8, T9, T10, T11, T5, T6, T18, T19, T12, T13, T14, T15, T16) < T20

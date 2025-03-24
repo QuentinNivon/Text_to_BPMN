@@ -1,0 +1,11 @@
+First, T0 executes, followed by T1. Then come T2, T8, T14 and T15 which are all executed in parallel. T8, T9, T10, T11, T12 and T13 are all executed sequentially, before T16. Similarly, T14 and T15 precede T16. T3 succedes T2 but has to be executed before T4 and T7. After T4, T5 and T6 execute followed by T16. Once T16 has executed, T17 follows and the last three tasks T18, T19 and T20 can start.
+
+ASSISTANT:
+
+- T0 < T1
+- (T0, T1) < (T2 & T8 & T14 & T15)
+- (T8 < T9 < T10 < T11 < T12 < T13) < T16
+- (T14, T15) < T16
+- T2 < T3 < (T4, T7)
+- T4 < (T5, T6) < T16
+- T16 < T17 < (T18, T19, T20)

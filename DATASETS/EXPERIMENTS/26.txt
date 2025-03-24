@@ -1,0 +1,1 @@
+A parallel gateway executes A and B in parallel of U and Z in parallel of Alpha.

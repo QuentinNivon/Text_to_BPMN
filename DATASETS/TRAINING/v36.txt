@@ -1,0 +1,5 @@
+ A is in a loop with B C D and E.
+
+ASSISTANT:
+
+- (A, B, C, D, E)*

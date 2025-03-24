@@ -1,0 +1,5 @@
+ Task A and task B followed by task C and task D
+
+ASSISTANT:
+
+- (A, B) < (C, D)

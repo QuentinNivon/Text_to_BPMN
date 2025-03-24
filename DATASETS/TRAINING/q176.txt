@@ -1,0 +1,7 @@
+ A precedes B and C. C is before D and E. D and F are before G H I J that are mutually exclusive and in a loop.
+
+ASSISTANT:
+
+- A < (B, C)
+- C < (D, E)
+- (D, F) < (G | H | I | J)*

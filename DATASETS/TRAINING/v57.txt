@@ -1,0 +1,11 @@
+The process starts with A0 before A1.
+Then, a choice executes either A2 or A3 preceding A4 preceding A5, A6, A7 and A8, all before A4.
+After the choice, A9 precedes A10 which precedes A11.
+After A11, a new choice starts, with either A16 or A14 in parallel of A15 in parallel of A12 before A13.
+
+ASSISTANT:
+
+- A0 < A1
+- (A0, A1) < (A2 | (A3 < A4 < (A5, A6, A7, A8) < A4))
+- (A2, A3, A4, A5, A6, A7, A8) < (A9 < A10 < A11)
+- A11 < (A16 | (A14 & A15 & (A12 < A13)))

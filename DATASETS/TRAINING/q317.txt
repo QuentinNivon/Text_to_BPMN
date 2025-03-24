@@ -1,0 +1,5 @@
+ A followed by B 
+
+ASSISTANT:
+
+- A < B

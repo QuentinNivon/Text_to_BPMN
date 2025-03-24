@@ -1,0 +1,6 @@
+When a vacancy is reported to me, I CreateJobDescription from the information.
+Sometimes, there is still confusion in the message, then I must AskDepartmentAgain.
+I then SubmitJobForConsideration and WaitForApproval.
+But it can also happen that the department RejectJobDescription and RequestCorrection.
+In this case, I CorrectJobDescription and SubmitJobForConsideration again.
+If the description if finally approved, I PostJob.

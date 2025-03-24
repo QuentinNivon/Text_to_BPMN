@@ -1,0 +1,7 @@
+T0 executes before T1, which is is before T2. T3 executes after these three. Finally, T4, T5, T6, T7 and T8 execute.
+
+ASSISTANT:
+
+- T0 < T1 < T2
+- (T0, T1, T2) < T3
+- (T0, T1, T2, T3) < (T4, T5, T6, T7, T8)

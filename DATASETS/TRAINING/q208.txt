@@ -1,0 +1,5 @@
+ I want either A before B or C or D
+
+ASSISTANT:
+
+- (A < B) | C | D

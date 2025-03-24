@@ -1,0 +1,8 @@
+First, we execute the action EvaluateRequest. After that, either tasks ExaminePatient, ConductDiagnostic and MakeDiagnosis are executed, or EvaluateHospitalization, PrescribeTherapy, TreatExacerbation, and PlanExamination. Necessarily, task ExaminePatient must occur before ConductDiagnostic and MakeDiagnosis. Also, tasks PrescribeTherapy and TreatExacerbation are mutually exclusive.
+
+ASSISTANT:
+
+- EvaluateRequest
+- EvaluateRequest < ((ExaminePatient, ConductDiagnostic, MakeDiagnosis) | (EvaluateHospitalization, PrescribeTherapy, TreatExacerbation, PlanExamination))
+- ExaminePatient < (ConductDiagnostic, MakeDiagnosis)
+- PrescribeTherapy | TreateExacerbation

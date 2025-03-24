@@ -1,0 +1,5 @@
+ I want A or B then C or D
+
+ASSISTANT:
+
+- (A | B) < (C | D)

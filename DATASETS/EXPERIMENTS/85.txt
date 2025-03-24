@@ -1,0 +1,6 @@
+First, the system ProcessApplication.
+Then, if the client has an account, the system RetrieveCustomerProfile and AnalyseCustomerProfile.
+Otherwise, the banker CreateProfile.
+Once done, the system IdentifyAccountType, and the banker PrepareAccountOpening.
+After that, the user ReceiveSupportDocuments, the banker UpdateInfoRecords, and the system also performs some BackgroundVerification at the same time than ReviewApplication.
+Finally, the bank either NotifyRejection, or GenerateAccountNumber, SendStarterKit, and ActivateAccount.

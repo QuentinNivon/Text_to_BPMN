@@ -1,0 +1,7 @@
+T0 executes before T1, T4 and T5 that are in parallel. T1 precedes T2, which precedes T3. They are followed by T6.
+
+ASSISTANT:
+
+- T0 < (T1 & T4 & T5)
+- T1 < T2 < T3
+- (T0, T1, T2, T3, T4, T5) < T6

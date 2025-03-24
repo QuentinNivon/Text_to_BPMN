@@ -1,0 +1,9 @@
+A is followed by B, B is followed by C and C is followed by A.
+C is also followed by E.
+
+ASSISTANT:
+
+- A < B
+- B < C
+- C < A
+- C < E

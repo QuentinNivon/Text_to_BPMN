@@ -1,0 +1,5 @@
+ either D or E are repeated
+
+ASSISTANT:
+
+- (D | E)*

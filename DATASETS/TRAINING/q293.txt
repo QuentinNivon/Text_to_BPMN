@@ -1,0 +1,9 @@
+T10 precedes T11, T12, T13 and T14.
+All these tasks are in parallel of T0 which precedes a choice between T1, T2, T3, T4, T5, itself preceding T6 which is before T7, T8 and T9.
+Finally, T15 executes before T16 which executes before T17 preceding T18 in parallel of T19.
+
+ASSISTANT:
+
+- T10 < (T11, T12, T13, T14)
+- (T10, T11, T12, T13, T14) & (T0 < (T1 | T2 | T3 | T4 | T5) < T6 < (T7, T8, T9))
+- (T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14) < (T15 < T16 < ((T17 < T18) & T19)) 

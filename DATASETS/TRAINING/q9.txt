@@ -1,0 +1,5 @@
+ A executes before C and D, which execute before E
+
+ASSISTANT:
+
+- A < (C, D) < E

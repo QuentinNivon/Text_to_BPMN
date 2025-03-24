@@ -1,0 +1,7 @@
+ The process starts with C and ends with E. In the middle tasks B, D, F are not constrained.
+
+ASSISTANT:
+
+- C, E
+- C < (B, D, F, E)
+- (C, B, D, F) < E

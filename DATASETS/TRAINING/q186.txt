@@ -1,0 +1,6 @@
+Tasks A and B and C and D and E and F. All tasks in parallel.
+
+ASSISTANT:
+
+- A, B, C, D, E, F
+- A & B & C & D & E & F

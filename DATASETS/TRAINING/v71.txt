@@ -1,0 +1,8 @@
+ A before B, B before C, C before D, D after E.
+
+ASSISTANT:
+
+- A < B
+- B < C
+- C < D
+- E < D

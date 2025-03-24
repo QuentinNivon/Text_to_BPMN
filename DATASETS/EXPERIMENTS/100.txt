@@ -1,0 +1,4 @@
+First, the user ApplyOnline.
+Then, he UploadsPassport, so that the company can EvaluateApplication.
+Once the company has evaluated the user, it decides between RejectApplication or AcceptApplication.
+If they accept the application, they then have to PayForFees, before PreparingAndDeliveringPassport.

@@ -1,0 +1,5 @@
+ Tasks A B C in sequence followed by tasks FFF GGG ERERER in sequence.
+
+ASSISTANT:
+
+- (A < B < C) < (FFF < GGG < ERERER)

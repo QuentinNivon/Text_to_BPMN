@@ -1,0 +1,8 @@
+My tasks are T1 T2 T3 T4 T5.  T1 and T2 execute in parallel. T3 excutes after T4  T5 is always executed after all the other tasks.  The process starts by executing T4.
+
+ASSISTANT:
+
+- T1 & T2
+- T4 < T3
+- (T1, T2, T3, T4) < T5
+- T4 < (T1, T2, T3, T5)

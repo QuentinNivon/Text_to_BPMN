@@ -1,0 +1,1 @@
+Tasks T1 T2 T3 T4 in sequence followed by tasks T10 T11 T13 T14 in parallel.  The whole process in a loop.

@@ -1,0 +1,5 @@
+Task A first. Task B second. Task C third.
+
+ASSISTANT:
+
+- A < B < C

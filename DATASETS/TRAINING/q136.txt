@@ -1,0 +1,7 @@
+The process starts with a choice between T3, T4, T0, and T1 followed by T2.
+Then, T5 starts in parallel of another choice, composed of T9, T10, and a parallel part containing T8 and T6 followed by T7.
+
+ASSISTANT:
+
+- T3 | T4 | T0 | (T1 < T2)
+- (T0, T1, T2, T3, T4) < (T5 & (T9 | T10 | (T8 & (T6 < T7))))

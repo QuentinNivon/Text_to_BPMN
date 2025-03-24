@@ -1,0 +1,1 @@
+The process executes task A before O and P. After that, there is B M L T in sequence. After B and M there is W. W precedes a loop containing Z Y and U. U is before Y.

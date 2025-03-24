@@ -1,0 +1,13 @@
+T0 executes before a parallel gateway with 8 branches.
+The first branch contains T9.
+The second branch contains T10.
+The third branch contains T8.
+The fourth branch contains T11.
+The fifth branch contains T12.
+The sixth branch contains T7.
+The seventh branch contains T5 before T6.
+The eighth branch contains T1 T2 T3 T4 all in sequence.
+
+ASSISTANT:
+
+- T0 < ((T9) & (T10) & (T8) & (T11) & (T12) & (T7) & (T5 < T6) & (T1 < T2 < T3 < T4))

@@ -1,0 +1,6 @@
+First ApplyOnline and UploadPassport execute. Then, task EvaluateApplication appears, and precedes either task RejectApplication ending the process or tasks PayFees, AcceptApplication and PrepareAndDeliverPassport.
+
+ASSISTANT:
+ 
+- ApplyOnline, UploadPassport
+- (ApplyOnline, UploadPassport) < EvaluateApplication < ((RejectApplication < #) | (PayFees, AcceptApplication, PrepareAndDeliverPassport))

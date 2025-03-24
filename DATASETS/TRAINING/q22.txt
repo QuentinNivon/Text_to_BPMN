@@ -1,0 +1,5 @@
+ rg before gf
+
+ASSISTANT:
+
+- rg < gf

@@ -1,0 +1,5 @@
+ I would like to have A B C D and F
+
+ASSISTANT:
+
+- A, B, C, D, F

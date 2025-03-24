@@ -1,0 +1,5 @@
+ The process starts with two tasks in sequence, A and B, followed by C D and E in a loop where D follows E.
+
+ASSISTANT:
+
+- (A < B) < (C, (E < D))*

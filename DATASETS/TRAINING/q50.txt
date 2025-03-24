@@ -1,0 +1,7 @@
+ A then B. A then C.  B then C.
+
+ASSISTANT:
+
+- A < B
+- A < C
+- B < C

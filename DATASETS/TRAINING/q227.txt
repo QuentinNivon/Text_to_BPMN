@@ -1,0 +1,5 @@
+ A or B followed by C or D
+
+ASSISTANT:
+
+- (A | B) < (C | D)

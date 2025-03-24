@@ -1,0 +1,6 @@
+After a claim is registered, the claims officer ExamineClaim.
+The claim officer then WriteSettlementRecommendation.
+A senior claim officer then CheckRecommendation.
+Depending on the results of the check, he either MarkClaimAsOK or MarkClaimAsNotOK.
+If the claim is marked as not ok, the senior officer SendBackClaim, and the original officer must WriteSettlementRecommendation again.
+If the claim is ok, the process ends.

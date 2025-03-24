@@ -1,0 +1,3 @@
+The MissionPaperwork can be done in parallel of the FlightBooking, the VisaDelivery, and the HotelReservation.
+The HotelReservation precedes the Vaccination, and everything must be done before ReturnDocuments.
+Finally Reimbursement and ArchiveDocs can start.

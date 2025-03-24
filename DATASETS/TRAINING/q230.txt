@@ -1,0 +1,5 @@
+ReturnDocuments executes after MissionPaperwork, FlightBooking, Vaccination and Visa and before tasks ArchiveDocs and Reimbursement.
+
+ASSISTANT:
+
+- (MissionPaperwork, FlightBooking, Vaccination, Visa) < ReturnDocuments < (ArchiveDocs, Reimbursement)

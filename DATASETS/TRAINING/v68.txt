@@ -1,0 +1,10 @@
+First, T0 executes before a choice composed of three branches.
+The first branch executes T8, T9, T10 and T11 sequentially.
+The second branch executes T12.
+The last branch is composed of parallel gateway itself composed of 3 branches: - T4, - T3 in parallel of T1 and T2 in sequence, and - a choice between T7 and T5 before T6.
+Then, T17 executes in parallel of T13 preceding T14 before T15 executed before T16.
+
+ASSISTANT:
+
+- T0 < ((T8 < T9 < T10 < T11) | (T12) | ((T4) & (T3 & (T1 < T2)) & (T7 | (T5 < T6))))
+- (T0, T8, T9, T10, T11, T12, T4, T3, T1, T2, T7, T5, T6) < (T17 & (T13 < T14 < T15 < T16))

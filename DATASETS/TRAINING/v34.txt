@@ -1,0 +1,7 @@
+T0 T1 T2 T3 and T4 happen right after each other. T5 is in parallel of T6 and in parallel of T3 and T4.
+
+ASSISTANT:
+
+- T0 < T1 < T2 < T3 < T4
+- T5 & T6
+- T5 & (T3, T4)

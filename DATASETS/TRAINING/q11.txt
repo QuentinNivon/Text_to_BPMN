@@ -1,0 +1,6 @@
+ i want a before b before c and d and e before g
+
+ASSISTANT:
+
+- a < b < c
+- (d, e) < g

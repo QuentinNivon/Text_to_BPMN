@@ -1,0 +1,8 @@
+ The process starts with C and ends with E. In the middle tasks B, D, F are repeatable.
+
+ASSISTANT:
+
+- C, E
+- (B, D, F)*
+- C < (B, D, F, E)
+- (B, C, D, F) < E

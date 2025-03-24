@@ -1,0 +1,6 @@
+ task A followed by C. task B followed by C.
+
+ASSISTANT:
+
+- A < C
+- B < C

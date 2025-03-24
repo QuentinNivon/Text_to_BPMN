@@ -1,0 +1,12 @@
+Several tasks can be executed in parallel: T10, T4, T5, T9, T1, T2, T3, T6, T7, T8. However T6 has to execute before T7, T1 before T2 and T2 before T3. Either all these tasks are executed or task T0 is. After this, T11 executes. Then, T12 executes before T13, T14, T15 and T16, which all execute before T17. T12, T13, T14, T15, T16 and T17 can be repeated.
+
+ASSISTANT:
+
+- T10 & T4 & T5 & T9 & T1 & T2 & T3 & T6 & T7 & T8
+- T6 < T7
+- T1 < T2
+- T2 < T3
+- T0 | (T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)
+- (T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10) < T11
+- T11 < T12 < (T13, T14, T15, T16) < T17
+- (T12, T13, T14, T15, T16, T17)*

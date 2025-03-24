@@ -1,0 +1,7 @@
+The process starts with two tasks in sequence, A and B, followed by E before D before C before E again.
+Also, D precedes F.
+
+ASSISTANT:
+
+- (A < B) < (E < D < C < E)
+- D < F

@@ -1,0 +1,22 @@
+T0 precedes T1 which precedes T2.
+T2 is before T6, T3 and T4.
+T6 is before T7.
+T4 is before T5.
+T7 is before T11 and T8 T9 T10 T8 in sequence.
+The loop, T15, T3 and T5 execute before T12.
+T12 executes prior to a parallel gateway with three paths.
+First path has T20 and T21 before T22.
+Second path has T13 before T14.
+Last path is a choice executing either T15 or a loop composed of T16, T17, T18 and T19 in sequence.
+After the parallel gateway, T23 starts.
+
+ASSISTANT:
+
+- T0 < T1 < T2
+- T2 < (T6, T3, T4)
+- T6 < T7
+- T4 < T5
+- T7 < (T11, (T8 < T9 < T10 < T8))
+- (T8, T9, T10, T15, T3, T5) < T12
+- T12 < (((T20, T21) < T22) & (T13 < T14) & (T15 | (T16 < T17 < T18 < T19)*))
+- (T20, T21, T22, T13, T14, T15, T16, T17, T18, T19) < T23

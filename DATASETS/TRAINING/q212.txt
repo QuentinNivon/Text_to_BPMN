@@ -1,0 +1,12 @@
+The process starts with T0.
+Then, a parallel gateway containing three paths starts.
+The first path contains T12.
+The second path contains T10, T9, and T6 preceding T7 preceding T8, all in parallel before T11.
+The last path contains T1, T2 and T3 in parallel, before T4 and T5 in sequence.
+After the parallel gateway, T13 executes in sequence with T14, which precedes T17, T15 before T16, and T18 before T19 before T20 in parallel.
+
+ASSISTANT:
+
+- T0
+- T0 < ((T12) & ((T10 & T9 & (T6 < T7 < T8)) < T11) & ((T1 & T2 & T3) < (T4 < T5)))
+- (T12, T10, T9, T6, T7, T8, T11, T1, T2, T3, T4, T5) < (T13 < T14 < (T17 & (T15 < T16) & (T18 < T19 < T20)))

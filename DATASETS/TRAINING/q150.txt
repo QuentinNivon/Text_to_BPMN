@@ -1,0 +1,7 @@
+ A choice between A and B and C.  C is followed by D followed by E.  After A and B and E, tasks FFF and GGG in parallel
+
+ASSISTANT:
+
+- A | B | C
+- C < D < E
+- (A, B, E) < (FFF & GGG)

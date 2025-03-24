@@ -1,0 +1,1 @@
+Tasks A B C in  a choice and in a loop.

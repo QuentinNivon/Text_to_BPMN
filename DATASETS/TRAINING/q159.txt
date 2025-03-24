@@ -1,0 +1,6 @@
+SubmitDocuments precedes either Retry followed again by SubmitDocuments or Refuse in which case the process terminates, or task Accept followed by tasks WelcomeKit and StoreDocuments in parallel
+
+ASSISTANT:
+
+- SubmitDocuments < ((Retry < SubmitDocuments) | (Refuse < #) | (Accept < (WelcomeKit & StoreDocuments)))
+

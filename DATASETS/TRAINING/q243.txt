@@ -1,0 +1,6 @@
+ A choice between A and B and C.  C is followed by D followed by E.
+
+ASSISTANT:
+
+- A | B | C
+- C < D < E

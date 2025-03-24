@@ -1,0 +1,5 @@
+First, the user LoginToTheWebsite.
+Then, he BrowseOrSearchForProduct.
+If the product is available, the website DisplaysResult.
+Otherwise, the user QuitWebsite.
+Once the result has been displayed, the user can AddItemToCart, before CheckOut and then Payment.

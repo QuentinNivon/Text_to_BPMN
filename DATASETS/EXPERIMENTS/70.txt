@@ -1,0 +1,6 @@
+First, the customer OpenCase.
+Then, the IT service AnalyseCase.
+After analysing the case, the IT service either SolveCase or AskHigherLevel.
+Once the problem is solved, they NotifyCustomer, who first CheckResolution.
+If the problem is indeed solved, he CloseCase.
+Otherwise, he ProvideMoreInformation and the IT service AnalyseCase again.

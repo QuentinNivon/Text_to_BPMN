@@ -1,0 +1,13 @@
+T3 executes in parallel of T1 followed by T2.
+Then, T4 executes, preceding a choice between T7 and T5 preceding T6.
+In parallel of them, T0 executes.
+After that, T8 executes, before a choice containing tasks T9 before T10, task T14, and tasks T12 and T11 in parallel, both preceding T13.
+After the choice, T15 precedes T16 which itself precedes a choice containing T17, T20, and T18 before T19.
+
+ASSISTANT:
+
+- T3 & (T1 < T2)
+- (T1, T2, T3) < T4 < (T7 | (T5 < T6))
+- (T1, T2, T3, T4, T5, T6, T7) & T0
+- (T0, T1, T2, T3, T4, T5, T6, T7) < T8 < ((T9 < T10) | T14 | ((T12 & T11) < T13))
+- (T9, T10, T14, T12, T11, T13) < (T15 < T16 < (T17 | T20 | (T18 < T19)))

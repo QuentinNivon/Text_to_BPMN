@@ -1,0 +1,9 @@
+While PackageGoods is executed, tasks ChooseShipment, RequestCarriersQuotes, AssignCarrier, CheckExtraInsurance, FillPostLabel and TakeExtraInsurance can be executed. Moreover, ChooseShipment is executed before either RequestCarriersQuotes and AssignCarrier or CheckExtraInsurance, TakeExtraInsurance and FillPostLabel. Of course, RequestCarrier executes before AssignCarrier and CheckExtraInsurance before TakeExtraInsurance. When all these tasks have been executed, MovePackage is performed.
+
+ASSISTANT:
+
+- PackageGoods & (ChooseShipment, RequestCarrierQuotes, AssignCarrier, CheckExtraInsurance, FillPostLabel, TakeExtraInsurance)
+- ChooseShipment < ((RequestCarriersQuotes, AssignCarrier) | (CheckExtraInsurance, TakeExtraInsurance, FillPostLabel))
+- RequestCarrier < AssignCarrier
+- CheckExtraInsurance < TakeExtraInsurance
+- (PackageGoods, ChooseShipment, RequestCarrierQuotes, AssignCarrier, CheckExtraInsurance, FillPostLabel, TakeExtraInsurance) < MovePackage

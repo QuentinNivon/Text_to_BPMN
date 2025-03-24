@@ -1,0 +1,6 @@
+ A executes before C and D, which execute before E. C and D can be repeated.
+
+ASSISTANT:
+
+- A < (C, D) < E
+- (C, D)*

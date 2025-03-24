@@ -1,0 +1,5 @@
+Task T1 followed by task T2 followed by a split exclusive gateway containing two tasks TTT and FFF followed by tasks K1 and K2 in parallel followed by task THEEND.
+
+ASSISTANT:
+
+- T1 < T2 < (TTT | FFF) < (K1 & K2) < THEEND

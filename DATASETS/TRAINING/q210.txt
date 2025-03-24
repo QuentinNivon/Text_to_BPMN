@@ -1,0 +1,6 @@
+ A should be before C and D and B before D
+
+ASSISTANT:
+
+- A < (C, D)
+- B < D

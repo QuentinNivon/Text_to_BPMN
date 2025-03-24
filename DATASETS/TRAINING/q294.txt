@@ -1,0 +1,5 @@
+ I want A B C before D and E
+
+ASSISTANT:
+
+- (A, B, C) < (D, E)

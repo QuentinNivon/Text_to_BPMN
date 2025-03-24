@@ -1,0 +1,10 @@
+T0 is before T1 which is before T2 in parallel of a choice preceding T11 before T12 before T11 and T25.
+The choice contains either T8, or T9 or T10 or T6 followed by T7 in parallel of T5 in parallel of T3 before T4.
+After the loop and T2, T13 starts, just before T17 and T18 in sequence in parallel of T14 T15 T16 one after the other.
+The process ends with T19.
+
+ASSISTANT:
+
+- T0 < T1 < (T2 & ((T8 | T9 | T10 | ((T6 < T7) & T5 & (T3 < T4))) < (T11 < T12 < (T11, T25))))
+- (T11, T12, T2) < T13 < ((T17 < T18) & (T14 < T15 < T16))
+- (T0, T1, T2, T8, T9, T10, T6, T7, T5, T3, T4, T11, T12, T13, T17, T18, T14, T15, T16) < T19

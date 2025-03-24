@@ -1,0 +1,6 @@
+ A B C D E with C and D repeatable
+
+ASSISTANT:
+
+- A, B, C, D, E
+- (C, D)*

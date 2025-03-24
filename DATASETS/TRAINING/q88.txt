@@ -1,0 +1,5 @@
+A choice between element A preceding element B, and element C in parallel of element D preceding element E, with elements D and E that can be repeated.
+
+ASSISTANT:
+
+- (A < B) | (C & (D < E)*)

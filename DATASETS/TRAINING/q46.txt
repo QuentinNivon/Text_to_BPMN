@@ -1,0 +1,6 @@
+A should be executed before B, and B before A.
+
+ASSISTANT:
+
+- (A < B)
+- (B < A)

@@ -1,0 +1,5 @@
+ Either A B execute or E
+
+ASSISTANT:
+
+- (A, B) | E

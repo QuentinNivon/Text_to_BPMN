@@ -1,0 +1,5 @@
+ i want a and b in  a loop
+
+ASSISTANT:
+
+- (a, b)*

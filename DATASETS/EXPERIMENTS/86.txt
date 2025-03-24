@@ -1,0 +1,3 @@
+The user first has to FillInForms so that he can pass the MedicalCheckUp which allows him to perform either a VisaApplication or a VisaVerification.
+After that, the company can either RejectVisa forcing the user to FillInForms again, or ValidatePartially and AskForAdditionalDocuments, or Validate.
+If the company has (at least partially) validated the documents, the system UpdatePersonnelDatabase, which triggers the financial service to AnticipateWages, and the human resources service to PrepareWelcomeKit, after what the system ArchiveAllDocuments.

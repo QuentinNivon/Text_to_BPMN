@@ -1,0 +1,4 @@
+The secretary starts by ClarifyShipmentMethod after which it chooses between GetOffersFromLogisticCompanies and InsureParcel in parallel of WritePackageLabeL.
+If they get they offers of the logistic companies, they then SelectLogisticCompanyAndPlaceOrder.
+In parallel of all of this, the warehouse PackageGoods.
+At the end of the process, the warehouse PrepareForPikcingUpGoods.

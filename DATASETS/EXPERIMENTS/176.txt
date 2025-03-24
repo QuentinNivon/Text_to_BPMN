@@ -1,0 +1,8 @@
+A customer BringsDefectiveComputer and the CRS CheckDefect and HandsOutRepairCost.
+If the customer decides that the costs are acceptable, the process continues.
+Otherwise, she takes her computer home unrepaired.
+The ongoing repair consists of two activities, which are executed, in any arbitrary order.
+The first activity is CheckAndRepairHardware, whereas the second activity CheckAndConfigureSoftware.
+After each of these activities, the repairer TestProperSystemFunctionality.
+If an error is detected, another arbitrary repair activity is executed.
+Otherwise, the repair is finished.

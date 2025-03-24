@@ -1,0 +1,9 @@
+ T1 then T2  T1 then T3  T1 then T4  T1 then T5  T6 after T2 T3 T4 T5.
+
+ASSISTANT:
+
+- T1 < T2
+- T1 < T3
+- T1 < T4
+- T1 < T5
+- (T2, T3, T4, T5) < T6

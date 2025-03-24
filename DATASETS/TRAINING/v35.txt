@@ -1,0 +1,14 @@
+First, T0 executes, followed by T1 preceding T2.
+Then, either T13 executes, or T3 followed by T4 followed by a parallel gateway composed of T11, T10, and T5 before T6 before T9 in parallel of T7 and T8 in sequence.
+After the parallel gateway, T12 executes.
+After the choice, another parallel gateway starts, with three paths.
+The first one executes T17, the second one T18 followed by T19, and the last one T14 before T15 before either T14 or T16.
+After that parallel gateway, T22 is in parallel of T21 following T20.
+
+ASSISTANT:
+
+- T0 < T1 < T2
+- (T0, T1, T2) < (T13 | (T3 < T4 < (T11 & T10 & (T5 < T5 < (T9 & (T7 < T8))))))
+- (T11, T10, T5, T6, T9, T7, T8) < T12
+- (T13, T3, T4, T11, T10, T5, T6, T9, T7, T8, T12) < ((T17) & (T18 < T19) & (T14 < T15 < (T14 | T16)))
+- (T17, T18, T19, T14, T15, T16) < (T22 & (T20 < T21))

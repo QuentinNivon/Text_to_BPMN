@@ -1,0 +1,5 @@
+ Selection_of_an_offer is before SOP and EAE.
+
+ASSISTANT:
+
+- Selection_of_an_offer < (SOP, EAE)

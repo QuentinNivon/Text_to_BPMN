@@ -1,0 +1,5 @@
+A or B precede C before D preceding A and E
+
+ASSISTANT:
+
+- (A | B) < (C < D) < (A, E)

@@ -1,0 +1,5 @@
+Interleaving of tasks A and B and C followed by a sequence between Tasks EEE and FF.
+
+ASSISTANT:
+
+- (A & B & C) < (EEE < FF)

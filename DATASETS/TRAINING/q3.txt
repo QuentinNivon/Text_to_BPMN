@@ -1,0 +1,5 @@
+I want A or B before C followed by D before A or E.
+
+ASSISTANT:
+
+- (A | B) < (C < D) < (A | E)

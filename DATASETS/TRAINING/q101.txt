@@ -1,0 +1,5 @@
+ I want D in parallel of A before B or C
+
+ASSISTANT:
+
+- D & ((A < B) | C)

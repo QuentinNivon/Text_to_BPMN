@@ -1,0 +1,5 @@
+ A choice between tasks A B C D E
+
+ASSISTANT:
+
+- A | B | C | D | E

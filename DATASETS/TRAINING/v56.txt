@@ -1,0 +1,5 @@
+ I want a loop composed of A or B followed by C before D
+
+ASSISTANT:
+
+- ((A | B) < (C < D))*

@@ -1,0 +1,4 @@
+First, the user FillInForms, the doctor performs a MedicalCheckup, and the administration does the VisaApplication.
+Then, the user SubmitDocuments.
+If DocumentsRejected, nothing happens.
+Otherwise, if DocumentsAccepted, the administration proceeds to the ArchiveAllDocuments, and the system UpdatePersonnelDatabase so that the staff can AnticipateWages and PrepareWelcomeKit.

@@ -1,0 +1,5 @@
+ Task A followed by task B in parallel with task C followed by task D.
+
+ASSISTANT:
+
+- (A < B) & (C < D)

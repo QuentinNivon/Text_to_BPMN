@@ -1,0 +1,7 @@
+Tasks T0, T1, T2, T3 and T4 are executed sequentially, in parallel of T5. After their execution, T6 and T7 execute one after the other.
+
+ASSISTANT:
+
+- ((T0 < T1 < T2 < T3 < T4) & T5)
+- (T0, T1, T2, T3, T4, T5) < (T6 < T7)
+

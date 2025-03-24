@@ -1,0 +1,7 @@
+ Interleaving of tasks A and B and C. Task B followed by D.  Task C followed by E.
+
+ASSISTANT:
+
+- (A & B & C)
+- B < D
+- C < E

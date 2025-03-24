@@ -1,0 +1,5 @@
+ A is in the same loop than B C D and E
+
+ASSISTANT:
+
+- (A, B, C, D, E)*

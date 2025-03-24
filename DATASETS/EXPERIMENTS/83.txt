@@ -1,0 +1,1 @@
+task x1 is executed before task x2. After task x2, tasks X3 and x4 are executed in parallel. Once both tasks are finished, either task x5 is executed, or task x6 is executed. Finally, the process is terminated.

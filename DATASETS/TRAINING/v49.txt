@@ -1,0 +1,5 @@
+Task ApplyOnline followed by UploadPassport followed by EvalApplication followed by a choice between RejectApplication after the which the process terminates and AcceptApplication followed by PayForFees and PrepareDeliverPassport
+
+ASSISTANT:
+
+- ApplyOnline < UploadPassport < EvalApplication < ((RejectApplication < #) | AcceptApplication) < (PayForFees, PrepareDeliverPassport)

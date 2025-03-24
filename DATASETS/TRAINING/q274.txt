@@ -1,0 +1,5 @@
+ I want A B C D E that can be repeated
+
+ASSISTANT:
+
+- (A, B, C, D, E)*
