@@ -1,10 +1,10 @@
-Natural Language to BPMN - Generation of BPMN Processes from Natural Language Descriptions
+Text to BPMN - Generation of BPMN Processes from Textual Descriptions
 ============================================================================================
 
-This repository provides the training dataset, the natural language descriptions used to
-evaluate the approach, and the source code of the implemented prototype of the approach
-presented in the paper "Automated Generation of BPMN Processes from Textual Requirements",
-submitted to the Transactions on Software Engineering (TSE) journal.
+This repository provides the training dataset, the textual descriptions used to
+evaluate the approach, and the source code of the prototype.
+The prototype is also directly available online at <https://quentinnivon.github.io/>,
+provided that you sent me a password request at [quentin.nivon@inria.fr](mailto:quentin.nivon@inria.fr).
 
 DATASETS directory
 ============================================================================================
